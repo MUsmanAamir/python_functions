@@ -3,4 +3,5 @@ def areaCube(edge:float)->float:
     return area
 
 edge = float(input("Enter the size of edge: "))
-print("Area of cube is",areaCube(edge))
+area = areaCube(edge)
+print("Area of cube is",area)
