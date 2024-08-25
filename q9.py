@@ -7,4 +7,4 @@ height = float(input("Enter the radius of cylinder: "))
 pi  = float(input("Enter the value of pi: "))
 volume : float = calculateVolumeCylinder(radius,height,pi)
 
-print(f"The volume of Cylinder: {volume}")
+print(f"The Volume of Cylinder: {volume}")
