@@ -11,7 +11,7 @@ def celsiusToFahrenheit(celsius:float)->float:
 
 fahrenheit = float(input("Enter the temperature in fahrenheit: "))
 celsius = float(input("Enter the temperature in celsius: "))
-print()
+print("\n")
 print("((After Conversion))")
-print(fahrenheitToCelsius(fahrenheit), "F")
-print(celsiusToFahrenheit(celsius), "C")
+print(fahrenheitToCelsius(fahrenheit), "C")
+print(celsiusToFahrenheit(celsius), "F")
