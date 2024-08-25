@@ -6,4 +6,5 @@ def areaCircle(pi: float, radius: float) -> float:
 
 pi = float(input("Enter the value of pi: "))
 radius = float(input("Enter the radius of circle: "))
-print("Area of circle is", areaCircle(pi, radius))
+area : float = areaCircle(pi, radius)
+print("Area of circle is", area)
